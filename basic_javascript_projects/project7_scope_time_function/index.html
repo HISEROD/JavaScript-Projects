@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/main.js"></script>
+    <style>
+        html {
+            background: #222;
+            color: #ddd;
+            display: block;
+        }
+
+        p {
+            background-color: #333;
+            width: 60vw;
+            font-family: sans-serif; font-size: 1.5rem;
+            margin: 24px auto;       padding: 24px 32px;
+            border-radius: 8px;
+            box-shadow: 0 0 64px black;
+        }
+        
+        input {
+            background-color: #333;
+            color: #ddd;
+            caret-color: white;
+            text-align: center;
+            display: block;
+            width: 60vw;
+            font-family: sans-serif; font-size: 1.5rem;
+            margin: 24px auto;       padding: 12px 16px;
+            border-radius: 8px;
+            box-shadow: 0 0 64px black;
+        }
+        
+        button {
+            background-color: #333;
+            color: #ddd;
+            display: block;
+            width: 20vw;
+            font-family: sans-serif; font-size: 1.5rem;
+            margin: 24px auto;       padding: 24px 32px;
+            border-radius: 8px;
+            box-shadow: 0 0 64px black;
+        }
+
+        hr {
+            border: outset 2.5px #5554;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <p id="test" onclick="hour()">Click me!</p>
+    <hr>
+    <p>You must be 18 or older to vote.</p>
+    <input id="age" placeholder="your age">
+    <button onclick="vote_func()">Verify</button>
+    <p id="vote"></p>
+    <hr>
+    <button onclick="time()">Click Here for Time</button>
+    <p id="time"></p>
+</body>
+</html>
