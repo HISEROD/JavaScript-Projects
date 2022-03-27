@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+/* * {
+    box-shadow: inset 0 0 0 1px rgba(0, 255, 0, 0.199), 0 0 8px rgba(255, 0, 0, 0.199);
+} */
+
+html {
+    background: #222;
+    color: #ddd;
+    font-size: large;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    font-variant: small-caps;
+    color: goldenrod;
+    letter-spacing: 1.5px;
+    cursor: default;
+    margin: 8px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #fb0
+}
+
+div {
+    font-family: 'Merriweather', serif;
+    font-size: .91rem;
+    background-color: #333;
+}
+
+input {
+    cursor: pointer;
+    margin: 6px 6px 0 4px;
+}
+
+#menuBG {
+    width: 960px;
+    height: 600px;
+    padding: 16px;
+    margin: 10px auto;
+    border-radius: 10px;
+    transition: height .5s;
+}
+
+#frmMenu {
+    height: 220px;
+    cursor: default;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+
+.col3rd {
+    width: calc(100% / 3);
+    height: 220px;
+    float: left;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: left;
+}
+
+#cart {
+    top: 0; margin: 0 auto;
+    width: 400px;
+    height: 220px;
+}
+
+#btnOrder {
+    background-color: #333;
+    border: 2px solid #222;
+    border-radius: 4px;
+    color: goldenrod;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    font-size: large;
+    font-variant: small-caps;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: 10px 0 auto;
+    height: 40px;
+    cursor: pointer;
+    transition: background-color, color, box-shadow;
+    transition-duration: .3s;
+}
+#btnOrder:hover {
+    background-color: #444;
+    color: #ff0;
+    box-shadow: 0 8px 12px #0008;
+}
