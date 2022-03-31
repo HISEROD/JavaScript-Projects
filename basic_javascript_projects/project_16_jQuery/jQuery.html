@@ -9,6 +9,7 @@
 </head>
 <script>
 $(document).ready(function() {
+    // add stuff to the document
     $("html").append(
         "<body>\
             <div id='container'>\
@@ -21,11 +22,16 @@ $(document).ready(function() {
             </div>\
         </body>"
     );
+    // add event handler for clicks on p #1
     $("#1").click(function() {
+        // make "Basic jQuery" title visible with a transition time of .5s
         $("h1").show(500);
     });
+    // make p #2 red
     $("#2").css({"color":"red"});
+    // add event handler for clicks on p #3
     $("#3").click(function() {
+        // hide the title with a transition time of .5s
         $("h1").hide(500);
     });
 });
