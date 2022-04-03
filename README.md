@@ -4,9 +4,9 @@ This is a repository for my JavaScript projects that I created during my Tech Ac
 <hr>
 
 ## Projects
-* [Pizza Menu]()
-* [Tic-Tac-Toe Game]()
-* [Calculator]()
+* [Pizza Menu](basic_javascript_projects/project_14_pizza_project)
+* [Tic-Tac-Toe Game](basic_javascript_projects/project_12_tictactoe)
+* [Calculator](basic_javascript_projects/project_13_calculator)
 
 ### Pizza Menu
 
