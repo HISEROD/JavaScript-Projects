@@ -1,0 +1,25 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    background-color: #000;
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#vid {
+    width: 100vw;
+    height: 100vh;
+    animation: 3s .5s 1 slideInFromTop;
+}
