@@ -11,15 +11,20 @@ body {
 @keyframes slideInFromTop {
     0% {
         transform: translateY(-100%);
+		opacity: 0;
     }
-
+    10% {
+        transform: translateY(-100%);
+		opacity: 0;
+    }
     100% {
         transform: translateY(0);
+		opacity: 1;
     }
 }
 
 #vid {
     width: 100vw;
     height: 100vh;
-    animation: 3s .5s 1 slideInFromTop;
+    animation: 4s cubic-bezier(0, 0, .25, 1) 1 slideInFromTop;
 }
